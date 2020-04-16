@@ -1,14 +1,14 @@
-About
+<b>About</b>
 
 This is a thin specialised powershell wrapper around youtube-dl for downloading mp3s from youtube videos.
 	
 
-Installation
+<b>Installation</b>
 
 youtube-dl must be callable from the command line. See the youtube-dl repo for linux instructions. For Windows simply add the folder containing youtube-dl.exe to your system PATH environment variable.
 	
 
-Windows specific installation
+<b>Windows specific installation</b>
 
 On Windows it assumes you have added the folder containing youtube-dl.exe to your PATH environment variable. The MP3 extraction also requires FFMPEG DLLs to be present either on the system path or in the same folder as youtube-dl.exe.
 	
@@ -25,7 +25,7 @@ https://ffmpeg.zeranoe.com/builds/
 Make sure to set the "Linking" to "shared" before downloading and then extract the contents of the bin folder found in the downloaded archive to the same folder as your youtube-dl.exe.
 	
 
-Usage
+<b>Usage</b>
 
 To download the MP3 of a video you can call the download-mp3.ps1 script using the following:
 ./download-mp3.ps1 -url https://youtu.be/BXsWn9DhF5g
